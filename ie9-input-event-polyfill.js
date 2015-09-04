@@ -2,7 +2,7 @@
   if (navigator.userAgent.indexOf('MSIE 9') === -1) return;
   var elements = [];
   var values = [];
-  var ev = document.createEvent('CustomEvent');
+  var ev = d.createEvent('CustomEvent');
   ev.initCustomEvent('input', true, true, {});
 
   d.addEventListener('selectionchange', function() {
