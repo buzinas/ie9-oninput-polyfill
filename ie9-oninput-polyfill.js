@@ -5,9 +5,8 @@
 
   d.addEventListener('selectionchange', function() {
     var actEl = d.activeElement;
-    var tagName = actEl.tagName;
 
-    if ((tagName === 'INPUT' && actEl.type === 'text') || tagName === 'TEXTAREA') {
+    if (actEl.tagName === 'TEXTAREA' || (actEl.tagName === 'INPUT' && actEl.type === 'text')) {
       var idx = elements.indexOf(actEl), el = elements[idx] || elements.push(actEl);
       if (el.value !== values[idx]) {
         values[idx] = el.value;
