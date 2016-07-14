@@ -4,8 +4,25 @@ Forces IE9 to trigger the INPUT event when the user deletes/cuts text from the i
 ## Usage
 Insert the script anywhere in your webpage, and the input event will start working properly on IE9.
 
-`<script src="ie9-oninput-polyfill.js"></script>`
+```html
+<script src="ie9-oninput-polyfill.js"></script>
+```
 
 You can even use the conditional tags:
 
-`<!--[if IE 9]><script src="ie9-oninput-polyfill.js"></script><![endif]-->`
+```html
+<!--[if IE 9]><script src="ie9-oninput-polyfill.js"></script><![endif]-->
+```
+
+## NPM
+You can install it from NPM also:
+
+```shell
+npm install --save ie9-oninput-polyfill
+```
+
+Then, if using some bundler like webpack/browserify, you only need to import it:
+
+```javascript
+require('ie9-oninput-polyfill');
+```
