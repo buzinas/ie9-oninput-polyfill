@@ -1,0 +1,26 @@
+{
+  "name": "ie9-oninput-polyfill",
+  "version": "1.1.0",
+  "description": "Forces IE9 to trigger the INPUT event when the user deletes/cuts text from the input - making the event works as it should (and as it does in all the modern browsers)",
+  "main": "ie9-oninput-polyfill.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buzinas/ie9-oninput-polyfill.git"
+  },
+  "keywords": [
+    "oninput",
+    "input",
+    "event",
+    "polyfill",
+    "ie9"
+  ],
+  "author": "Vitor Buzinaro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/buzinas/ie9-oninput-polyfill/issues"
+  },
+  "homepage": "https://github.com/buzinas/ie9-oninput-polyfill#readme"
+}
